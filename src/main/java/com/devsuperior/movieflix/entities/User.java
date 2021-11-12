@@ -90,6 +90,10 @@ public class User implements UserDetails, Serializable {
 	public List<Review> getReviews() {
 		return reviews;
 	}
+	
+	public Set<Role> getRoles() {
+		return roles;
+	}
 
 	@Override
 	public int hashCode() {
